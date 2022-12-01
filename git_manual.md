@@ -168,8 +168,7 @@ URI репозитория на свой.
 
 различать, мы дадим им разные имена. Обычно главный репозиторий называется origin.
 
-
-3. Отправка изменений на сервер
+### 3. Отправка изменений на сервер
 
 Сейчас самое время переслать наш локальный коммит на сервер. Этот процесс 
 
@@ -191,7 +190,7 @@ Total 3 (delta 0), reused 0 (delta 0)
 
 To https://github.com/tutorialzine/awesome-project.git
 
-* [new branch] master -> master
+[new branch] master -> master
 
 Эта команда немного похожа на *git fetch*, с той лишь разницей, что при помощи fetch 
 
@@ -235,7 +234,7 @@ $ git pull origin master
 
 From https://github.com/tutorialzine/awesome-project
 
-* branch master -> FETCH_HEAD
+branch master -> FETCH_HEAD
 
 Already up-to-date.
 
